@@ -1,0 +1,130 @@
+#recipe-title{
+  background-color: #43291f;
+  color:#FEFAE0;
+}
+h2{
+background-color:#43291f;
+color:#FEFAE0;
+}
+
+#Ingredients{
+background-color:#43291f;
+color:#FEFAE0;
+width: 150px;
+}
+#recipe-image{
+  position:absolute;
+  border-radius: 50%;
+  right:760px;
+}
+.i {
+   position: absolute;
+   top: 245px;
+   right:9px;
+   height: 259px;
+   width: 900px;
+   background-color: #43291f;
+}
+Body{
+  background-color:#FEFAE0
+}
+.mm{
+  width: 150px;
+}
+.Recipe-tips{
+  width:100px;
+}
+.ll{
+  width:60px;
+}
+.mhm{
+  width:80px;
+  margin: 0px;
+  position:absolute;
+  left:750px;
+  top: 550px;
+}
+.bet{
+  width:120px;
+}
+.tot{
+  position:relative;
+  left: 150px;
+}
+.things > .content {
+  float: left;
+  width: 50%;
+  height: 500px;
+  -webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;    
+	box-sizing: border-box;
+  position: relative;
+}
+
+.things > .content video {
+  top: 0;
+  bottom: 0;
+  left: 40;
+  right: 0;
+  margin: 0;
+  position: relative;
+  height: 150px;
+}
+
+/* Arrow */
+
+.arrow {
+	position: absolute;
+  left: 50px;
+  top: 30px;
+  margin: 0 auto;
+  width: 50px;
+  transform:rotate(-50deg);
+}
+
+.arrow .curve {
+	border: 2px solid #BE5F4B;
+	border-color: transparent transparent transparent #BE5F4B;
+	height: 160px;
+	width: 1200px;
+	border-radius: 230px 0 0 150px;
+}
+
+.arrow .point {
+	position: absolute;
+	left: 20px;
+	top: 140px;
+}
+
+.arrow .point:before, .arrow .point:after {
+	border: 1px solid #BE5F4B;
+	height: 25px;
+	content: "";
+	position: absolute;
+}
+
+.arrow .point:before {
+	top: -11px;
+	left: -11px;
+	transform:rotate(-74deg);
+	-webkit-transform:rotate(-74deg);
+  -moz-transform:rotate(-100deg);
+  -ms-transform: rotate(-100deg);
+}
+
+.arrow .point:after {
+  top: -20px;
+	left: 5px;
+	transform:rotate(12deg);
+	-webkit-transform: rotate(12deg);
+  -moz-transform:rotate(12deg);
+  -ms-transform: rotate(12deg);
+}
+.clas{
+  position:absolute;
+  top: 100px;
+  right:-445px;
+  height: 250px;
+  width: 390px;
+  background-color: #43291f;
+}
